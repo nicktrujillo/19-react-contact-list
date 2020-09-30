@@ -1,0 +1,80 @@
+body {
+  background: rgb(255, 209, 220);
+}
+
+#homeContainer {
+  width: 600px;
+  margin: auto;
+}
+
+#peeps {
+  background: #8eb94f;
+  padding: 25px 25px 30px 25px;
+  margin-top: 0;
+  margin-bottom: -10px;
+  color: white;
+  font-weight: bolder;
+}
+
+.userList {
+  margin: 30px 15px;
+  border-bottom: 1px solid black;
+  padding-bottom: 50px;
+}
+
+.smallPhoto {
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  margin-right: 15px;
+}
+
+.userInfoContainer {
+  width: 600px;
+  margin: auto;
+}
+
+#picContainer {
+  background: #afce80;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.largePhoto {
+  border-radius: 50%;
+}
+.userDetail {
+  border-bottom: 1px solid black;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+#arrow {
+  position: relative;
+  bottom: 50px;
+  right: 190px;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:visited {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  text-decoration: none;
+  color: black;
+}
+.link:focus {
+  text-decoration: none;
+  color: black;
+}
+.link:hover,
+.link:active {
+  text-decoration: none;
+  color: black;
+}
